@@ -12,6 +12,8 @@ Mindanao State University – Iligan Institute of Technology
 
 ## Abstract
 
+Powerlifting is a strength sport where athletes compete to lift the heaviest weights in three exercises: squat, bench press, and deadlift. Competitors are grouped by weight class, age, and sometimes equipment use.
+
 This project applies **association rule mining using the FP-Growth algorithm** to the **Open Powerlifting Database** to discover meaningful relationships between athlete demographics, equipment usage, weight classes, and performance outcomes. The analysis focuses on **2019 competition data** to reduce computational complexity while maintaining relevance. Key findings show strong associations between age group (24–34), weight class, sex, equipment choice (Raw vs Single-ply), and high performance as measured by **IPF Points**. The workflow includes data preprocessing, exploratory data analysis (EDA), frequent pattern mining, rule evaluation using support, confidence, and lift, and visualization of results.
 
 ---
