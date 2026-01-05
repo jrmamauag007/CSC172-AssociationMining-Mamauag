@@ -205,7 +205,7 @@ https://drive.google.com/file/d/1IIzErHiVddpuwTGoCMS4lXEDbLTg9Sgk/view?usp=shari
 
 ## 8. References
 
-* Open Powerlifting Database – Kaggle
+* Open Powerlifting Database: https://www.kaggle.com/datasets/open-powerlifting/powerlifting-database/data
 * `mlxtend` documentation
 
 ---
