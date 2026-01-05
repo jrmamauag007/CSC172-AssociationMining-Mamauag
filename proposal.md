@@ -73,11 +73,11 @@ Powerlifting coaches and enthusiasts want to identify patterns between athletesâ
 
 ## 6. Expected Challenges & Mitigations
 
+- **Challenge:**  Vast dataset (up to ~800,000 rows) can lead to long processing times and high memory usage
+  - **Solution:** Filter dataset to 2019, as it is the most recent year, reducing size while keeping relevant, up-to-date data
+
 - **Challenge:** Highly diverse and sparse dataset (many unique athletes, weight classes, and equipment types)  
   - **Solution:** Filter infrequent items (support > 0.01)  
 
 - **Challenge:** Long runtime for mining frequent patterns with many attributes  
   - **Solution:** Use FP-Growth for memory- and time-efficient pattern discovery  
-
-- **Challenge:** Trivial or obvious rules (e.g., male lifters lift more than female lifters)  
-  - **Solution:** Filter rules by lift/conviction thresholds to focus on actionable insights 
